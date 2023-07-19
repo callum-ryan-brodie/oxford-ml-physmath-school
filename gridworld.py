@@ -31,7 +31,7 @@ class GameEnv:
         # *)   -2 for running into a wall / not moving at all
         self.step_penalty = -1.
         self.pitfall_penalty = -50.
-        self.exit_reward = 100.
+        self.exit_reward = 100000.
         self.no_move_penalty = -2.
 
         # Actions in gridworld: move up, down, left, right
